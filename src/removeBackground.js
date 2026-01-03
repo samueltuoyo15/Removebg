@@ -19,7 +19,7 @@ export const removeBackground = async (req, res) => {
       {
         headers: {
           ...formData.getHeaders(),
-          "X-Api-Key": "dvVgJSVgfe5Nc4bPQ1BauNLG",
+          "X-Api-Key": import.meta.env.VITE_REMOVE_BG_API_KEY,
         },
         responseType: "arraybuffer",
       }

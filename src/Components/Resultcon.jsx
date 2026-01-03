@@ -115,7 +115,7 @@ const Resultcon = () => {
               >
                 <div className="w-full h-full bg-layer opacity-60"></div>
               </button>
-              {['#FF4D4D', '#3B82F6', '#22C55E'].map((color) => (
+              {['#000000', '#FFFFFF', '#FF4D4D', '#3B82F6', '#22C55E', '#FACC15', '#A855F7', '#EC4899'].map((color) => (
                 <button
                   key={color}
                   className={`w-8 h-8 rounded-full cursor-pointer transition-transform hover:scale-110 border border-gray-200 ${selectedColor === color ? 'ring-2 ring-offset-1 ring-gray-500 scale-110' : ''}`}
